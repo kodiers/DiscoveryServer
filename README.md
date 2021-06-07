@@ -1,0 +1,2 @@
+### RUN AXON:
+```docker run --name axonserver -p 8024:8024 -p 8124:8124 -v "/Users/viktoryamchinov/Desktop/JAVA/Event-Driven Microservices, CQRS, SAGA, Axon, Spring Boot/DiscoveryServer/axonserver/data":/data -v "/Users/viktoryamchinov/Desktop/JAVA/Event-Driven Microservices, CQRS, SAGA, Axon, Spring Boot/DiscoveryServer/axonserver/eventdata":/eventdata -v "/Users/viktoryamchinov/Desktop/JAVA/Event-Driven Microservices, CQRS, SAGA, Axon, Spring Boot/DiscoveryServer/axonserver/config":/config axoniq/axonserver```
